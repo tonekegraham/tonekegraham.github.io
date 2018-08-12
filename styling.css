@@ -1,0 +1,175 @@
+/* DESING/LAYOUT STYLING */
+#home{
+	min-height: 100vh;
+	width: 100%;
+	background-color: #FFFFFF;
+	border-bottom: 3px solid #FFFFFF;
+	text-align: center;
+}
+#navigation{
+	height: 6.5vh;
+	background-color: #000000;
+	width: 100%;
+	padding-bottom: 10px;
+	margin-left: 0px;
+	border-bottom: 3px solid #FFFFFF;
+}
+#about {
+	text-align: center;
+	background-color: #FFFFFF;
+	width: 98%;
+	min-height: 50vh;
+	margin: auto;
+	padding-top: 30px;
+	border-bottom: 6px solid #000000;
+}
+#portfolio {
+	img-align: center;
+	text-align: center;
+	width: 98%;
+	background-color: #FFFFFF;
+	min-height: 110vh;
+	margin: auto;
+	border-bottom: 6px solid #000000;
+}
+#contact {
+	text-align: center;
+	width: 98%;
+	background-color: #FFFFFF;
+	min-height: 25vh;
+	margin: auto;
+}
+
+body {
+	background-color: #222222;
+}
+
+
+/* IMAGE STYLINGS*/
+#about-img{ 
+		border:2px solid #CECFCE;
+}
+.img-rounded{
+	padding-bottom: 25px;
+}
+.img-rounded:hover{
+	border-radius: 3px;
+	border-color: #000000;
+}
+
+/* OBJECT STYLINGS */
+#buttons{ 
+		background-color: #000000;
+}
+.btn-link-text {
+		color: #FFFFFF;
+}
+#target1{
+		background-color: #000000;
+}
+#target2{
+		background-color: #000000;
+}
+#target3{
+		background-color: #000000;
+}
+.btn-default {
+		color: #FFFFFF;
+		background-color: #000000;
+}
+
+
+
+
+/* BUTTONS */
+.btn {
+    padding: 14px 22px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.btn-primary-text{
+	color: #FFFFFF;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+#flickr{
+		font-size: 10px;
+		background-color: #0063DB;
+		box-shadow: 0px 0px 10px #000000;
+}
+#linkedIn{
+		font-size: 10px;
+		background-color: #007BB6;
+		box-shadow: 0px 0px 10px #000000;
+}
+#facebook{
+		font-size: 10px;
+		background-color: #3B5998;
+		box-shadow: 0px 0px 10px #000000;
+}
+#youtube{
+		font-size: 10px;
+		box-shadow: 0px 0px 10px #000000;
+		background-color: #D62422;
+}
+#googlePlus{
+		font-size: 10px;
+		box-shadow: 0px 0px 10px #000000;
+		background-color: #DC4E41;
+}
+
+
+
+
+/* TEXT STYLING */
+h1 {
+	color: #000000;
+	align: center;
+	font-size: 6vh;
+	padding-top: 20%;
+	font-family: 'Quicksand', sans-serif;
+}
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	padding: 10px;
+}
+h3 {
+	font-size: 22px;
+	color: #FFFFFF;
+}
+h4 {
+	align: center;
+	font-size: 2vh;
+	font-family: 'Athiti', sans-serif;
+	padding: 10px;
+}
+h5 {
+	font-size: 20px;
+	padding: 5px;
+}
+h6 {
+	padding-top: 75px;
+	align: center;
+	font-size: 4vh;
+	opacity: 0.3;
+}
+#footer-text{
+	font-size: 5px;
+	margin-top: -20px;
+}
